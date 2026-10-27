@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/meteors",
   "title": "Meteors",
   "description": "Meteors MCP — NASA fireball, near-Earth asteroid, and close approach data",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "websiteUrl": "https://pipeworx.io/packs/meteors",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-meteors",

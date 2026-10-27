@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-meteors",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Meteors MCP — NASA fireball, near-Earth asteroid, and close approach data",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-b2692825aac25b9c2643c7e239313dd404bd8b380e41a11a707165155a1972be",
-    "sourceCommit": "6182c4cfebddb94950e060b5d2fca18f18ad1aca"
+    "sourceHash": "v1-ad4de1e89244524d07bd71f4da94f6552507152879243a449dde75f46a2449cb",
+    "sourceCommit": "ba9dd6df5992aeb16ef2425ee86d1752c34ca636"
   }
 }
