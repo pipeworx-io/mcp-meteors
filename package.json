@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-meteors",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Meteors MCP — NASA fireball, near-Earth asteroid, and close approach data",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-meteors": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "meteors"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-meteors.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/meteors",
   "pipeworx": {
-    "sourceHash": "v1-ad4de1e89244524d07bd71f4da94f6552507152879243a449dde75f46a2449cb",
-    "sourceCommit": "ba9dd6df5992aeb16ef2425ee86d1752c34ca636"
+    "mode": "gateway",
+    "slug": "meteors",
+    "gatewaySlug": "meteors",
+    "sourceHash": "v1-36878c2776cbf3c69e0a0d2b9576712c2aa0ac2ae17d9a9dd3f38000210acc5c",
+    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
   }
 }
